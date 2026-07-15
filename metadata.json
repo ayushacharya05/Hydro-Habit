@@ -1,0 +1,6 @@
+{
+  "name": "HydroHabit",
+  "description": "Track your daily water intake, set hydration goals, and maintain a healthy routine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
