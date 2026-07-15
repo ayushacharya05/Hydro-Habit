@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Hydro Habit - Your Hydration Partner</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --bg-gradient: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 50%, #7dd3fc 100%);
+      --card-bg: rgba(255, 255, 255, 0.45);
+      --card-border: rgba(255, 255, 255, 0.6);
+      --text-dark: #0f172a;
+      --text-muted: #475569;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background: var(--bg-gradient);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-dark);
+      padding: 2rem 1rem;
+    }
+
+    /* Container Card with Glassmorphism effect */
+    .download-card {
+      background: var(--card-bg);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--card-border);
+      border-radius: 24px;
+      padding: 3rem 2rem;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 
+                  0 1px 3px rgba(0, 0, 0, 0.02);
+    }
+
+    /* App Icon Animation */
+    .app-icon {
+      width: 120px;
+      height: 120px;
+      border-radius: 28px;
+      background-color: #ffffff;
+      padding: 10px;
+      box-shadow: 0 12px 24px rgba(37, 99, 235, 0.15);
+      margin-bottom: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .app-icon:hover {
+      transform: translateY(-5px);
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(to right, #1d4ed8, #0369a1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+
+    /* Features List */
+    .features-list {
+      text-align: left;
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 16px;
+      padding: 1.25rem;
+      margin-bottom: 2.25rem;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-size: 0.95rem;
+      color: #1e293b;
+    }
+
+    .feature-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .feature-icon {
+      color: var(--primary);
+      margin-right: 10px;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    /* Primary CTA Button */
+    .download-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--primary);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      padding: 1rem 2.5rem;
+      border-radius: 9999px;
+      width: 100%;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+      transition: all 0.2s ease;
+      margin-bottom: 1rem;
+    }
+
+    .download-button:hover {
+      background-color: var(--primary-hover);
+      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.5);
+      transform: translateY(-1px);
+    }
+
+    .download-button:active {
+      transform: translateY(1px);
+    }
+
+    .download-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="download-card">
+    <!-- App Logo -->
+    <img 
+      class="app-icon" 
+      src="https://raw.githubusercontent.com/ayushacharya05/Hydro-Habit/refs/heads/main/download/icon.png" 
+      alt="Hydro Habit App Icon"
+    >
+
+    <!-- App Identity -->
+    <h1>Hydro Habit</h1>
+    <p class="tagline">Hydration tracking made simple. Build a healthier habit, one glass of water at a time.</p>
+
+    <!-- App Highlight Cards -->
+    <div class="features-list">
+      <div class="feature-item">
+        <span class="feature-icon">✓</span> Smart daily water targets tailored for you
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">✓</span> Timely reminders to keep you on track
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">✓</span> Beautiful visual progress statistics
+      </div>
+    </div>
+
+    <!-- CTA Button -->
+    <a href="blob:https://github.com/251c1cc2-686e-46d0-9671-380c21f99e48" class="download-button" download="HydroHabit.apk">
+      Download for Android
+    </a>
+
+    <p class="download-meta">Safe download directly via GitHub</p>
+
+    <div class="footer">
+      &copy; 2026 Hydro Habit. All rights reserved.
+    </div>
+  </div>
+
+</body>
+</html>
